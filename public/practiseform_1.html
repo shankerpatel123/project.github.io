@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM NO.1</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff; /* AliceBlue background */
+        margin: 0;
+        padding: 0;
+    }
+    
+    h2 {
+        color: #0047AB; /* Deep Blue for heading */
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    form {
+        margin: 30px auto;
+        padding: 20px;
+        width: 60%;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    div {
+        margin-bottom: 15px;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #0047AB; /* Blue borders */
+        border-radius: 5px;
+    }
+    
+    input[type="radio"], input[type="checkbox"] {
+        width: auto;
+    }
+    
+    input[type="submit"] {
+        background-color: #0047AB; /* Blue background */
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #002D70; /* Darker blue for hover effect */
+    }
+    
+    em {
+        font-size: 0.9rem;
+        color: #333333; /* Slightly darker grey for emphasis */
+    }
+    
+    strong {
+        color: #0047AB; /* Blue for important text */
+    }
+    </style>
+</head>
+<body>
+<img src="ICICI-banner-ozzrlk8k2a48ljevliq7hfs5p908j8c6qe5flvdz9s.png" alt="error loading image" width="1500" height="120">
+<h2 style="text-align: center;">Regstration form</h2>
+<form action="backend.php">
+    <div>First Name: <input type="text"></div>
+    <br>
+<div>Last name: <input type="text"></div>   
+<br>
+<div>Mobile Number: <input type="number"></div>
+<br>
+<div>Date:<input type="date" name="mydate" id="mydate"></div>
+<br>
+<div>Email: <input type="email" name="myemail"></div>
+<br>
+<div>Highest educational qualification: <input type="text"></div>
+<br>
+<div><strong>Have you cleared CA examination in your first appearance,both groups taken together , in a single sitting </strong>
+<em>(CA first attempt: an applicant who woul have cleared group-l and group-llin his/her first attempt and in a single sitting is consideredas first attempt CA)</em></div>
+<br>
+<div>CA Final exam passing year: <input type="date" name="mydate" id="mydate"></div>
+<br>
+<div>Please enter your current state: <input type="text"> </div>
+<br>
+<div>Gender: Male<input type="radio" name="mygender">Female <input type="radio" name="mygender"> </div>
+<br>
+<div>Kindly confirm your current industry: <input type="text"></div>
+<br>
+<div>Name of your current employer: <input type="text">
+</div>
+<br>
+<div>Please select your current CTC:&nbsp; &nbsp; &nbsp;
+ <select name="currentctc" id="ctc">
+    <option value="0">--Select--</option>
+    <option value="1">1-2 LPA</option>
+    <option value="2">2-4 LPA</option>
+    <option value="3">4-6 LPA</option>
+    <option value="4">6-8 PLA</option>
+  </select></div>
+  <br>
+  <div>Have you been interviewed by ICICI Bank in the last one year? yes <input type="radio" name="yesorno"> no <input type="radio" name="yesorno"></div>
+  <br>
+  <div>Are you currently working at ICICI Bank or any ICICI Group company? yes <input type="radio" name="yesorno"> no <input type="radio"name="yesorno"></div>
+  <br>
+  <div>I confirm that:<input type="checkbox" id="defaultChecked" name="interest" value="default" checked><br>1. I understand that the form attempts to capture the basic aspect of the candidature with respect to the existing job opportunities at ICICI Bank and should not be taken as a Final Role / Interview Confirmation. </div>
+  <br>
+  <div>2. Interview invite is subject to shortlisting of profile and  successful uploading of diciments prior to the interview. <br> I authorize ICICI Bank to contact me through Email, Phone, SMS Whatsapp for all job-related communications.</div>
+<br>
+<div><input type="submit" value="submit now"></div>
+</form>
+</body>
+</html
